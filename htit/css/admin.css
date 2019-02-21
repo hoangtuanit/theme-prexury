@@ -1,0 +1,37 @@
+.mce-toolbar, .mce-flow-layout {
+  background-color: white !important;
+  border: 1px solid white !important; }
+
+.sucuriscan-setup-notice, #postcustom, #woocommerce-order-downloads {
+  display: none !important; }
+
+#excerpt {
+  height: 260px !important; }
+
+.widget.open {
+  z-index: 9999 !important; }
+
+.widgets-holder-wrap .siteorigin-widget-field-type-media, .widgets-holder-wrap .siteorigin-widget-preview {
+  display: none !important; }
+
+#post-body #post-body-content #after_title-sortables:empty {
+  display: none; }
+
+.post-type-product .tablenav input, .post-type-product .tablenav select, .post-type-shop_order .tablenav input, .post-type-shop_order .tablenav select {
+  padding: 0px 10px; }
+
+#woocommerce-product-data h2.hndle {
+  display: none; }
+#woocommerce-product-data ._sold_individually_field {
+  display: none !important; }
+
+input.button {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  height: 30px !important;
+  line-height: 30px !important; }
+
+#mceu_106, .mce-last {
+  display: block !important; }
+
+/*# sourceMappingURL=admin.css.map */

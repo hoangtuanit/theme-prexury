@@ -1,0 +1,31 @@
+@mixin transition(){
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+	
+@mixin flex(){
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+}
+
+@mixin flex-center(){
+	@include flex();
+	align-items: center;
+	-webkit-align-items: center;
+}
+
+@mixin flex-center-between(){
+	@include flex-center();
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+
+@mixin flex-center-center(){
+	@include flex-center();
+	justify-content: center;
+	-webkit-justify-content: center;
+
+}
